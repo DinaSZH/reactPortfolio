@@ -1,5 +1,5 @@
-import React from "react"
-import { social } from "../data/dummydata"
+import React from "react";
+import { social } from "../data/dummydata";
 
 const Footer = () => {
   return (
@@ -7,13 +7,13 @@ const Footer = () => {
       <footer>
         {social.map((item) => (
           <>
-            <i data-aos='zoom-in'>{item.icon}</i>
+            <i data-aos="zoom-in">{item.icon}</i>
           </>
         ))}
-        <p data-aos='zoom-in'>All Right Resceved 2018</p>
+        <p data-aos="zoom-in">IT2-2004 Photographer portfolio project</p>
       </footer>
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
